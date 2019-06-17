@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "StringOps.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -15,7 +16,8 @@ int main(int argc, const char * argv[]) {
         for (int i = 0; i < 4; i++) {
             NSLog(@"this is %d xx something better \n \n \t", i);
         }
-        
+        StringOps *ops = [[StringOps alloc]init];
+        NSLog(@"the first char is %c",[ops getFirstChar:@"good"]);
     }
     return 0;
 }

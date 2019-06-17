@@ -14,4 +14,6 @@
 
 - (char)getFirstChar:(NSString *)string;
 
+-(void)thisIsaSampleLoggerForDeveloper;
+
 @end

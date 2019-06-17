@@ -18,6 +18,7 @@ int main(int argc, const char * argv[]) {
         }
         StringOps *ops = [[StringOps alloc]init];
         NSLog(@"the first char is %c",[ops getFirstChar:@"good"]);
+        [ops thisIsaSampleLogger];
     }
     return 0;
 }

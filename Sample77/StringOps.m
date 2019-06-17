@@ -27,4 +27,13 @@
     
 }
 
+-(void)thisIsaSampleLogger {
+    NSLog(@"Ok this does not work");
+}
+
+-(void)thisIsaSampleLoggerForDeveloper {
+    NSLog(@"Ok this   works only for developer");
+}
+
+
 @end
